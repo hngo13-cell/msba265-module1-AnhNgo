@@ -157,13 +157,29 @@ Expected terminal output should include:
 
 ### Step 2: Run the Jupyter Notebook
 
-Open the following notebook in Visual Studio Code:
+Open:
 
 `notebooks/01_eda_and_data_dictionary.ipynb`
 
-Select the Python interpreter from the `venv` virtual environment as the Jupyter kernel.
+Before running the notebook, make sure it is using the Python interpreter from the project's virtual environment.
 
-Run all notebook cells from top to bottom.
+To select the correct kernel:
+
+1. In the **top-right corner** of the notebook, click the current kernel name or **Select Kernel**.
+2. Select **Python Environments...**.
+3. Choose the Python environment named `venv`.
+
+The correct environment should show a path similar to:
+
+```text
+venv\Scripts\python.exe
+```
+
+Visual Studio Code may also label this environment as **Recommended**.
+
+After selecting it, confirm that `venv` appears in the top-right corner of the notebook.
+
+Then click **Run All** to run all notebook cells from top to bottom.
 
 The notebook performs the following analysis:
 
