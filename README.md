@@ -116,10 +116,9 @@ source venv/bin/activate
 After activation, the terminal should indicate that the virtual environment is active.
 
 ---
+### 3. Install Required Packages and Register the Jupyter Kernel
 
-### 3. Install Required Packages
-
-Upgrade pip:
+With the virtual environment activated, install the required packages:
 
 ```bash
 python -m pip install --upgrade pip
@@ -129,6 +128,12 @@ Install all required packages:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Then register the virtual environment as a Jupyter kernel:
+
+```bash
+python -m ipykernel install --user --name msba265-module1-AnhNgo --display-name "Python (MSBA 265 Module 1)"
 ```
 
 ---
