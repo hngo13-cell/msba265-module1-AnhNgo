@@ -80,8 +80,8 @@ cd msba265-module1-AnhNgo
 ```bash
 code .
 ```
-
 The `msba265-module1-AnhNgo` project should now open in Visual Studio Code.
+
 ---
 
 ### 2. Create a Virtual Environment
