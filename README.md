@@ -62,41 +62,31 @@ Required Python packages are listed in:
 
 ## Setup Instructions
 
-### 1. Open Visual Studio Code and Clone the Repository
+### 1. Clone and Open the Repository
 
-1. Open **Visual Studio Code**.
+1. Open a new Visual Studio Code window.
 
-2. Select **File > Open Folder** and choose the folder where you want to save the project.
+2. Select **Terminal > New Terminal**.
 
-3. In Visual Studio Code, select **Terminal > New Terminal** to open a terminal.
-
-4. In the terminal, run:
+3. In the terminal, run:
 
 ```bash
 git clone https://github.com/hngo13-cell/msba265-module1-AnhNgo.git
-```
-
-5. After the repository has finished downloading, move into the project folder:
-
-```bash
 cd msba265-module1-AnhNgo
 ```
 
-6. Open the cloned project folder in Visual Studio Code by selecting:
+4. Open the cloned project folder in new Visual Studio Code window:
 
-**File > Open Folder**
+```bash
+code .
+```
 
-Then select:
-
-`msba265-module1-AnhNgo`
-
-The project files should now appear in the VS Code Explorer panel.
-
+The `msba265-module1-AnhNgo` project should now open in Visual Studio Code.
 ---
 
 ### 2. Create a Virtual Environment
 
-Open a new terminal in Visual Studio Code and run:
+In `msba265-module1-AnhNgo` project, open a new terminal in Visual Studio Code and run:
 
 #### Windows
 
