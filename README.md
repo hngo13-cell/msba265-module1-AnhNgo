@@ -81,6 +81,7 @@ Replace `<YOUR_GITHUB_REPOSITORY_URL>` with the actual URL of this repository.
 
 ```powershell
 python -m venv venv
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 .\venv\Scripts\activate
 ```
 
