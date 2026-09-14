@@ -255,7 +255,7 @@ The combined figure is saved as:
 
 ## Step 3: Run the Production Outlier Filtering Script
 
-From the root project directory, run:
+In terminal, run:
 
 ```bash
 python src/clean_outliers.py
