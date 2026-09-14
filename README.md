@@ -120,12 +120,6 @@ Install all required packages:
 pip install -r requirements.txt
 ```
 
-Then register the virtual environment as a Jupyter kernel:
-
-```bash
-python -m ipykernel install --user --name msba265-module1-AnhNgo --display-name "Python (MSBA 265 Module 1)"
-```
-
 ---
 
 ## Execution Instructions
