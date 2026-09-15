@@ -62,41 +62,42 @@ Required Python packages are listed in:
 
 ## Setup Instructions
 
-### 1. Open Visual Studio Code and Clone the Repository
+### 1. Clone and Open the Repository
 
-1. Open **Visual Studio Code**.
+Open a terminal in Visual Studio Code.
 
-2. Select **File > Open Folder** and choose the folder where you want to save the project.
+Use `cd` to navigate to the folder where you want to save the project. For example:
 
-3. In Visual Studio Code, select **Terminal > New Terminal** to open a terminal.
+```bash
+cd C:\Users\YourName\Documents
+```
 
-4. In the terminal, run:
+Clone the GitHub repository:
 
 ```bash
 git clone https://github.com/hngo13-cell/msba265-module1-AnhNgo.git
 ```
 
-5. After the repository has finished downloading, move into the project folder:
+Move into the cloned project folder:
 
 ```bash
 cd msba265-module1-AnhNgo
 ```
 
-6. Open the cloned project folder in Visual Studio Code by selecting:
+Open the project folder in Visual Studio Code:
 
-**File > Open Folder**
+1. Open Visual Studio Code.
+2. Click **File > Open Folder...**
+3. Select the `msba265-module1-AnhNgo` folder.
+4. Click **Select Folder**.
 
-Then select:
-
-`msba265-module1-AnhNgo`
-
-The project files should now appear in the VS Code Explorer panel.
+The `msba265-module1-AnhNgo` project should now open in Visual Studio Code.
 
 ---
 
 ### 2. Create a Virtual Environment
 
-Open a new terminal in Visual Studio Code and run:
+In `msba265-module1-AnhNgo` project, open a new terminal in Visual Studio Code and run:
 
 #### Windows
 
@@ -116,10 +117,9 @@ source venv/bin/activate
 After activation, the terminal should indicate that the virtual environment is active.
 
 ---
-
 ### 3. Install Required Packages
 
-Upgrade pip:
+With the virtual environment activated, install the required packages:
 
 ```bash
 python -m pip install --upgrade pip
@@ -168,13 +168,29 @@ Expected terminal output should include:
 
 ### Step 2: Run the Jupyter Notebook
 
-Open the following notebook in Visual Studio Code:
+Open:
 
 `notebooks/01_eda_and_data_dictionary.ipynb`
 
-Select the Python interpreter from the `venv` virtual environment as the Jupyter kernel.
+Before running the notebook, make sure it is using the Python interpreter from the project's virtual environment.
 
-Run all notebook cells from top to bottom.
+To select the correct kernel:
+
+1. In the **top-right corner** of the notebook, click the current kernel name or **Select Kernel**.
+2. Select **Python Environments...**.
+3. Choose the Python environment named `venv`.
+
+The correct environment should show a path similar to:
+
+```text
+venv\Scripts\python.exe
+```
+
+Visual Studio Code may also label this environment as **Recommended**.
+
+After selecting it, confirm that `venv` appears in the top-right corner of the notebook.
+
+Then click **Run All** to run all notebook cells from top to bottom.
 
 The notebook performs the following analysis:
 
@@ -266,7 +282,7 @@ The combined figure is saved as:
 
 ## Step 3: Run the Production Outlier Filtering Script
 
-From the root project directory, run:
+In terminal, run:
 
 ```bash
 python src/clean_outliers.py
