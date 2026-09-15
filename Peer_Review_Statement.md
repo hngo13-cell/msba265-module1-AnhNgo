@@ -19,6 +19,6 @@ The project was successfully reproduced by following the README instructions wit
 
 **Peer Reviewer Name:** Ziyan Chen
 
-**Operating System:** Window
+**Operating System:** Windows 11
 
 **Date Reviewed:** 09/15/2026
