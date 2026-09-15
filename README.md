@@ -64,22 +64,33 @@ Required Python packages are listed in:
 
 ### 1. Clone and Open the Repository
 
-1. Open a new Visual Studio Code window.
+Open a terminal in Visual Studio Code.
 
-2. Select **Terminal > New Terminal**.
+Use `cd` to navigate to the folder where you want to save the project. For example:
 
-3. In the terminal, run:
+```bash
+cd C:\Users\YourName\Documents
+```
+
+Clone the GitHub repository:
 
 ```bash
 git clone https://github.com/hngo13-cell/msba265-module1-AnhNgo.git
+```
+
+Move into the cloned project folder:
+
+```bash
 cd msba265-module1-AnhNgo
 ```
 
-4. Open the cloned project folder in new Visual Studio Code window:
+Open the project folder in Visual Studio Code:
 
-```bash
-code .
-```
+1. Open Visual Studio Code.
+2. Click **File > Open Folder...**
+3. Select the `msba265-module1-AnhNgo` folder.
+4. Click **Select Folder**.
+
 The `msba265-module1-AnhNgo` project should now open in Visual Studio Code.
 
 ---
