@@ -117,7 +117,7 @@ source venv/bin/activate
 After activation, the terminal should indicate that the virtual environment is active.
 
 ---
-### 3. Install Required Packages and Register the Jupyter Kernel
+### 3. Install Required Packages
 
 With the virtual environment activated, install the required packages:
 
