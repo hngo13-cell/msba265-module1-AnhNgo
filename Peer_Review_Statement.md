@@ -3,7 +3,7 @@
 
 **Student:** Anh Ngo
 
-I confirm that I independently reviewed and tested Anh Ngo's MSBA 265 Module 1 project by following the instructions provided in the `README.md` file.
+We confirm that we independently reviewed and tested Anh Ngo's MSBA 265 Module 1 project by following the instructions provided in the `README.md` file.
 
 The following steps were completed:
 
@@ -27,5 +27,7 @@ The project was successfully reproduced by following the README instructions wit
 ### Peer Reviewer 2
 
 **Name:** Nu Quynh Chau Nguyen  
-**Operating System:** MacOS 
+**Operating System:** macOS  
 **Date Reviewed:** 09/15/2026  
+
+
