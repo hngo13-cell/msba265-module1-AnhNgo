@@ -17,8 +17,15 @@ The following steps were completed:
 
 The project was successfully reproduced by following the README instructions without additional assistance from the project author.
 
-**Peer Reviewer Name:** Ziyan Chen
 
-**Operating System:** Windows 11
+### Peer Reviewer 1
 
-**Date Reviewed:** 09/15/2026
+**Name:** Ziyan Chen  
+**Operating System:** Windows 11  
+**Date Reviewed:** 09/15/2026  
+
+### Peer Reviewer 2
+
+**Name:** Nu Quynh Chau Nguyen  
+**Operating System:** MacOS 
+**Date Reviewed:** 09/15/2026  
