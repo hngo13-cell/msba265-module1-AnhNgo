@@ -27,5 +27,7 @@ The project was successfully reproduced by following the README instructions wit
 ### Peer Reviewer 2
 
 **Name:** Nu Quynh Chau Nguyen  
-**Operating System:** MacOS 
+**Operating System:** macOS 
 **Date Reviewed:** 09/15/2026  
+
+
